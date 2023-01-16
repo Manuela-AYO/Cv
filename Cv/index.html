@@ -7,23 +7,176 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <h1>Hello World</h1>
-        <div class="container">
-            <div id="opening">
-                <!--Opening page-->
-                <div id="overlayer"></div>
-                <!--Preloader-->
-                <div class="preloader">
-                    <div class="loader">
-                        <span class="loader-inner"></span>
-                    </div>
-                    <p>Happy to see you ...</p>
+        <!-- Preloading part -->
+        <div id="opening">
+            <!--Opening page-->
+            <div id="overlayer"></div>
+            <!--Preloader-->
+            <div class="preloader">
+                <div class="loader">
+                    <span class="loader-inner"></span>
                 </div>
-            </div>
-            <div>
-                <p>Helo</p>
+                <p>Happy to see you ...</p>
             </div>
         </div>
+
+        <!-- Our card -->
+        <div class="container">
+            <div class="card">
+                <div class="card-inner">
+                    <!-- Part of the card that will contain my infos-->
+                    <div class="card-profile">
+                        <!-- About me -->
+                        <div class="row">
+                            <div class="profile">
+                                <img class="profile-photo" src="profile.jpg" alt="profile photo"/>
+                                <p id="links"><a href="#"><img src="github.svg" alt="icone github"/></a> 
+                                    <a href="#"><img src="linkedin.svg" alt="linkedin" height="25"/></a> 
+                                    <a href="#"><img src="gmail.svg" alt="gmail" height="25"></a>
+                                </p>
+                            </div>
+                            <div class="about">
+                                <h4>A PROPOS</h4>
+                                <p>
+                                    Ayant découvert depuis peu un attrait pour l'univers excitant 
+                                    de la <b>fintech</b>, je souhaite intégrer votre équipe <b>data</b> pour
+                                    un stage de <b>quatre mois</b>.<br> Si vous êtes une fintech qui porte en elle
+                                    des projets révolutionnaires et qui recherche à cet effet une personne curieuse, 
+                                    avide de connaissances, motivée, travailleuse et souriante, alors <b>créditez-moi</b>.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Images -->
+                        <div class="row images">
+                            <img src="images/chip.png" alt="chip" width="30px">
+                            <img src="images/visa.png" alt="visa" width="30px">
+                        </div>
+                        
+                        <div class="row infos">
+                            <p><b>C. Manuela AYO NDAZO'O</b></p>
+                            <p><b>VALIDITÉ</b></p>
+                        </div>
+                        <div class="row date">
+                            <p id="title">Étudiante en Machine Learning et Data Mining</p>
+                            <p>04/2023 - 07/2023</p>
+                        </div>
+                    </div>
+                   
+                    <div class="card-two-inner">
+                        <div class="card-two">
+                            <!--Projects-->
+                            <div class="row">
+                                <div class="projets">
+                                    <h4>Projets</h4>
+                                    <ul>
+                                        <li>Analyse des données de Spotify
+                                            <p>Algorithmes utilisés : Régression linéaire,
+                                                Support Vector Machine(Classification), KMeans(Clustering),
+                                                PCA(Réduction de la dimension)
+                                            </p>
+                                            <p>Bibliothèques utilisées : Numpy, Pandas, Matplotlib, Scikit-learn</p>
+                                        </li>
+                                        <li>Implémentation de l'algorithme des KNN from scratch
+                                            <p>Bibliothèque principale : <b>Numpy</b></p>
+                                        </li>
+                                        <li>Une question de nettoyage de données
+                                            <p>Bibliothèques utilisées : <b>Pandas</b>, <b>Numpy</b></p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Projects, Education, Tools-->
+                                <div class="others">
+                                    <!--Education-->
+                                    <h4>Education</h4>
+                                    <ul class="tools">
+                                        <li>2022 - 2023 : Master 1 en Machine learning et data mining - Université Jean Monnet, Saint-Etienne</li>
+                                        <li>2020 - 2022 : Licence en Informatique - Université Jean Monnet, Saint-Etienne</li>
+                                    </ul>
+
+                                    <!--Outils-->
+                                    <h4>Outils/Technologies</h4>
+                                    <ul class="tools">
+                                        <li>Python 
+                                            <span class="dot colored"></span>
+                                            <span class="dot colored"></span>
+                                            <span class="dot colored"></span>
+                                            <span class="dot colored"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                        </li>
+                                        <li>Numpy, Pandas, Matplotlib
+                                            <span class="dot colored"></span>
+                                            <span class="dot colored"></span>
+                                            <span class="dot colored"></span>
+                                            <span class="dot colored"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                        </li>
+                                        <li>PostgreSQL
+                                            <span class="dot colored"></span>
+                                            <span class="dot colored"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                        </li>
+                                        <li>Power BI
+                                            <span class="dot colored"></span>
+                                            <span class="dot colored"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="card-back">
+                            <!--div class="row back">
+                                <div class="skills"-->
+                                    <!--Soft Skills-->
+                                    <!--h4>Soft Skills</h4>
+                                    <ul>
+                                        <li>Travail en équipe</li>
+                                        <li>Curiosité</li>
+                                        <li>Humilité</li>
+                                    </ul-->
+
+                                    <!--Langues-->
+                                    <!--h4 id="lan">Langues</h4>
+                                    <ul>
+                                        <li>Français : langue natale</li>
+                                        <li>English : B2 level</li>
+                                    </ul>
+                                </div>
+                                <div id="hobs"-->
+                                    <!--Hobbies-->
+                                    <!--h4>Hobbies</h4>
+                                    <ul>
+                                        <li>Lecture</li>
+                                        <li>Culture sur le monde des fintechs(Débutante)</li>
+                                        <li>Écriture</li>
+                                        <li>Danse : salsa</li>
+                                    </ul-->
+                                    <!--Contact-->
+                                    <!--h4>Contact</h4>
+                                    <p>Si ma carte de crédit ... il ne vous reste plus qu'à faire une chose : <b>me contacter</b> : </p>
+                                    <ul>
+                                        <li>Mail:  manuelaayo7@gmail.com</li>
+                                        <li>Linkedin : </li>
+                                    </ul>
+                                </div-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        
+        </div>
+        <script src="script.js"></script>
     </body>
-    <script type="text/javascipt" src="script.js"></script>
 </html>
