@@ -96,7 +96,7 @@ div.body {
   perspective: 1000px;
   margin-left: auto;
   margin-right: auto;
-  background-color: black;
+  background-color: #19191a;
   box-sizing: border-box;
   padding-top : 30px;
   transition: transform 1s;
@@ -400,7 +400,6 @@ div#bottom {
   .card-inner {
     width: 600px;
     height: 320px;
-    background-color: #19191a;
     padding-top: 0px;
     margin-left: auto;
     margin-right: auto;
